@@ -1,0 +1,42 @@
+.custom-block {
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    height: 45px;
+    padding: 0 20px !important;
+  }
+
+  textarea {
+    height: 200px;
+    padding: 20px !important;
+  }
+
+  input[type="submit"] {
+    clip-path: polygon(0 0, 100% 0%, calc(100% - 15px) 100%, 0% 100%);
+    background-color: #1c4638;
+    height: 45px;
+    padding: 0 40px 0 30px !important;
+    color: #fff;
+    animation-duration: 0.3s;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #4e8f47;
+      animation-duration: 0.3s;
+    }
+  }
+
+  .validation_message {
+    background: none !important;
+    border: none !important;
+    padding: 0 30px !important;
+  }
+
+  .gform_validation_errors {
+    background: none !important;
+    border: none !important;
+    padding: 0 50px !important;
+    box-shadow: none !important;
+  }
+}

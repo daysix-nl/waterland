@@ -1,0 +1,16 @@
+{
+  "name": "inner-block-cards",
+  "title": "Inner block - Cards",
+  "description": "",
+  "category": "innerblocks",
+  "icon": "insert",
+  "keywords": ["block"],
+  "supports": {
+    "mode": false,
+    "jsx": true
+  },
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "inner-block-cards.php"
+  }
+}

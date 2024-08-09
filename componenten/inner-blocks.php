@@ -1,0 +1,2 @@
+  <?php $allowed_blocks_inner = ['acf/inner-block-button', 'acf/inner-block-images', 'acf/inner-block-list', 'acf/inner-block-text', 'acf/inner-block-title', 'acf/inner-block-accordion', 'acf/inner-block-cards','acf/inner-block-subtitle','acf/inner-block-line', 'acf/inner-block-slider' ];?>
+    <InnerBlocks allowedBlocks="<?php echo esc_attr( wp_json_encode( $allowed_blocks_inner ) ); ?>"/>

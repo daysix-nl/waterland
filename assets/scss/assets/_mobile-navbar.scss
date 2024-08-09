@@ -1,0 +1,26 @@
+$delay: 0.1s;
+
+.mobile-navbar {
+  nav {
+    a {
+      opacity: 0;
+      transform: translate(0px, 0px);
+      transform: translate(0px, 15px);
+    }
+  }
+
+  &.open {
+    nav {
+      @for $i from 1 to 30 {
+        a:nth-child(#{$i}) {
+          transition: 0.4s;
+          transition-delay: $i * 0.1s;
+          opacity: 1;
+          transition-duration: 1s;
+          transform: translate(0px, 0px);
+          transition-timing-function: ease;
+        }
+      }
+    }
+  }
+}

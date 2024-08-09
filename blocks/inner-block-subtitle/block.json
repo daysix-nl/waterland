@@ -1,0 +1,18 @@
+{
+  "name": "inner-block-subtitle",
+  "title": "Inner block - Subtitle",
+  "description": "",
+  "category": "innerblocks",
+  "icon": "insert",
+  "keywords": [
+    "block"
+  ],
+  "supports": {
+    "mode": false,
+    "jsx": true
+  },
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "inner-block-subtitle.php"
+  }
+}

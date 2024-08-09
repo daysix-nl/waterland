@@ -1,0 +1,99 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "heeboblack";
+  src: url("/wp-content/themes/waterland/font/heebo-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "heebobold";
+  src: url("/wp-content/themes/waterland/font/heebo-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "heeboextrabold";
+  src: url("/wp-content/themes/waterland/font/heebo-extrabold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "heebolight";
+  src: url("/wp-content/themes/waterland/font/heebo-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "heebomedium";
+  src: url("/wp-content/themes/waterland/font/heebo-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "heeboregular";
+  src: url("/wp-content/themes/waterland/font/heebo-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "heebothin";
+  src: url("/wp-content/themes/waterland/font/heebo-thin-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "heeboblack";
+  src: url("/wp-content/themes/waterland/font/heebo-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "heebobold";
+  src: url("/wp-content/themes/waterland/font/heebo-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "heeboextrabold";
+  src: url("/wp-content/themes/waterland/font/heebo-extrabold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "heebolight";
+  src: url("/wp-content/themes/waterland/font/heebo-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "heebomedium";
+  src: url("/wp-content/themes/waterland/font/heebo-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.tekstinnit p {
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.tekstinnit a {
+  color: #1c4638 !important;
+  text-decoration: underline !important;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "inner-block-slider",
+  "title": "Inner block - slider",
+  "description": "",
+  "category": "innerblocks",
+  "icon": "insert",
+  "keywords": ["block"],
+  "supports": {
+    "mode": false,
+    "jsx": true
+  },
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "inner-block-slider.php"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "block-contact",
+  "title": "Blok - Contact",
+  "description": "",
+  "category": "blokken",
+  "icon": "insert",
+  "keywords": ["block"],
+  "supports": {
+    "mode": false,
+    "jsx": true
+  },
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "block-contact.php"
+  }
+}

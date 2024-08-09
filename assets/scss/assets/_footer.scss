@@ -1,0 +1,25 @@
+.footer-icons {
+  svg {
+    transition: 0.3s;
+  }
+  &:hover {
+    svg {
+      g {
+        g {
+          path {
+            transition: 0.3s;
+            fill: #4e8f47;
+          }
+        }
+      }
+    }
+  }
+  &:nth-last-of-type(1):hover {
+    svg {
+      path {
+        transition: 0.3s;
+        fill: #4e8f47;
+      }
+    }
+  }
+}

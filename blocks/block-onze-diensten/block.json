@@ -1,0 +1,16 @@
+{
+  "name": "block-onze-diensten",
+  "title": "Blok - Onze diensten",
+  "description": "",
+  "category": "blokken",
+  "icon": "insert",
+  "keywords": ["block"],
+  "supports": {
+    "mode": false,
+    "jsx": true
+  },
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "block-onze-diensten.php"
+  }
+}

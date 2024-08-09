@@ -1,0 +1,16 @@
+{
+  "name": "inner-block-button",
+  "title": "Inner block - Button",
+  "description": "",
+  "category": "innerblocks",
+  "icon": "insert",
+  "keywords": ["block"],
+  "supports": {
+    "mode": false,
+    "jsx": true
+  },
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "inner-block-button.php"
+  }
+}
