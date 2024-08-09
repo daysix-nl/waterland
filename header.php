@@ -97,7 +97,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <?php endif; ?>
                 <div class="px-[15px] md:px-[30px] py-[0px] md:py-[20px]">
                     <?php if (get_field('titel_popup', 'option')): ?>   
-                    <h2 class="text-[#1c4638] text-40 leading-40 font-heebo-bold w-full pb-1 md:pb-[10px]"><?php echo get_field('titel_popup', 'option');?></h2>
+                    <h2 class="text-[#1c4638] text-30 leading-30 font-heebo-bold w-full pb-1 md:pb-[10px]"><?php echo get_field('titel_popup', 'option');?></h2>
                     <?php endif; ?>
                     <?php if (get_field('tekst_popup', 'option')): ?>   
                     <div class="text-black text-16 leading-30 font-heebo-regular w-full text-editor"><?php echo get_field('tekst_popup', 'option');?></div>
